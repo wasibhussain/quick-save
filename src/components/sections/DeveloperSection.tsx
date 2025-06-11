@@ -31,8 +31,7 @@ export function DeveloperSection() {
           <div className="flex items-start">
             <MapPin className="w-5 h-5 mr-3 text-accent mt-1 flex-shrink-0" />
             <p className="text-foreground">
-              Mohalla Mehran Colony, Ward No. 10, Sakrand, <br />
-              District Shaheed Benazirabad, Sakrand, 67210, <br />
+              Karachi, <br />
               Pakistan
             </p>
           </div>
