@@ -8,33 +8,33 @@ body {
 
 @layer base {
   :root {
-    --background: 120 60% 90%; /* #E0FEEE - Light Green */
-    --foreground: 0 0% 15%;   /* Dark Gray for text on light green */
+    --background: 0 0% 100%;               /* White */
+    --foreground: 0 0% 15%;                 /* Dark Gray */
     
-    --card: 0 0% 100%;         /* White cards */
-    --card-foreground: 0 0% 15%; /* Dark Gray text on cards */
+    --card: 0 0% 100%;                       /* White cards */
+    --card-foreground: 0 0% 15%;           /* Dark Gray text on cards */
     
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 15%;
     
-    --primary: 145 63% 47%;   /* #25D366 - WhatsApp Green */
-    --primary-foreground: 0 0% 100%; /* White */
+    --primary: 145 63% 49%;                 /* #25D366 - WhatsApp Green (for interactive elements) */
+    --primary-foreground: 0 0% 100%;       /* White */
     
-    --secondary: 145 60% 80%; /* Lighter WhatsApp Green for secondary elements */
-    --secondary-foreground: 145 63% 25%; /* Darker Green for text on secondary */
+    --secondary: 170 50% 90%;              /* Light Teal */
+    --secondary-foreground: 170 60% 30%;   /* Darker Teal for text on secondary */
     
-    --muted: 120 60% 95%;    /* Very light green or gray for muted backgrounds */
-    --muted-foreground: 0 0% 45.1%; /* Subdued text color */
+    --muted: 180 25% 95%;                  /* Very Light Teal/Gray (for section backgrounds like Features) */
+    --muted-foreground: 0 0% 45.1%;         /* Medium Gray for muted text */
     
-    --accent: 171 81% 35%;     /* #128C7E - Darker Green for CTAs */
-    --accent-foreground: 0 0% 100%; /* White */
+    --accent: 171 81% 28%;                  /* #128C7E - Teal (for CTAs and accents) */
+    --accent-foreground: 0 0% 100%;        /* White */
     
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     
-    --border: 145 50% 75%;     /* Lighter shade of primary for borders */
-    --input: 145 50% 85%;       /* Input background */
-    --ring: 145 63% 47%;        /* Ring color (WhatsApp Green) */
+    --border: 180 20% 88%;                  /* Slightly darker Light Teal/Gray for borders */
+    --input: 180 20% 92%;                   /* Lighter Teal/Gray for input backgrounds */
+    --ring: 145 63% 49%;                    /* Ring color (Primary - WhatsApp Green) */
     
     --radius: 0.75rem; /* Slightly more rounded corners */
 
@@ -56,33 +56,34 @@ body {
   }
 
   .dark {
-    --background: 190 15% 15%;        /* Dark tealish gray */
-    --foreground: 190 5% 90%;         /* Off-white with teal hint */
+    /* Dark theme inspired by user's Flutter app and previous requests */
+    --background: 180 12% 10%;       /* Dark Tealish Gray e.g. #121B22 from Flutter */
+    --foreground: 180 10% 90%;       /* Off-white/Light Tealish Gray */
     
-    --card: 190 15% 20%;              /* Tealish gray for cards */
-    --card-foreground: 190 5% 90%;
+    --card: 180 10% 15%;            /* Darker Tealish Gray for cards e.g. #1F2C34 */
+    --card-foreground: 180 10% 90%;
     
-    --popover: 190 15% 20%;
-    --popover-foreground: 190 5% 90%;
+    --popover: 180 10% 15%;
+    --popover-foreground: 180 10% 90%;
     
     --primary: 145 63% 49%;           /* #25D366 - WhatsApp Green */
     --primary-foreground: 0 0% 100%;  /* White */
     
-    --secondary: 190 10% 30%;         /* Lighter teal-gray */
-    --secondary-foreground: 190 5% 85%;
+    --secondary: 180 10% 25%;         /* Medium Dark Tealish Gray e.g. #2A3942 */
+    --secondary-foreground: 180 10% 85%;
     
-    --muted: 190 15% 18%;             /* Slightly different tealish gray for muted backgrounds */
-    --muted-foreground: 190 10% 60%;  /* Dimmer text color */
+    --muted: 180 12% 12%;             /* Slightly darker than background for muted sections */
+    --muted-foreground: 180 10% 60%;  /* Dimmer text color */
     
-    --accent: 171 77% 31%;            /* #128C7E - Darker Green/Teal */
+    --accent: 171 81% 35%;            /* #128C7E - Darker Green/Teal (same as light accent, but could be adjusted) */
     --accent-foreground: 0 0% 100%;   /* White */
     
     --destructive: 0 62.8% 30.6%;     /* Standard dark theme destructive */
     --destructive-foreground: 0 0% 98%;
     
-    --border: 190 15% 25%;            /* Tealish gray border */
-    --input: 190 15% 22%;             /* Tealish gray input background */
-    --ring: 171 77% 31%;              /* Ring color based on accent */
+    --border: 180 10% 20%;            /* Tealish gray border */
+    --input: 180 10% 18%;             /* Tealish gray input background */
+    --ring: 171 81% 35%;              /* Ring color based on accent */
     
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
@@ -90,14 +91,14 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
     
-    --sidebar-background: 190 15% 15%;
-    --sidebar-foreground: 190 5% 80%;
+    --sidebar-background: 180 12% 10%;
+    --sidebar-foreground: 180 5% 80%;
     --sidebar-primary: 145 63% 49%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 190 15% 20%;
-    --sidebar-accent-foreground: 190 5% 90%;
-    --sidebar-border: 190 15% 25%;
-    --sidebar-ring: 171 77% 31%;
+    --sidebar-accent: 180 10% 15%;
+    --sidebar-accent-foreground: 180 5% 90%;
+    --sidebar-border: 180 10% 20%;
+    --sidebar-ring: 171 81% 35%;
   }
 }
 
