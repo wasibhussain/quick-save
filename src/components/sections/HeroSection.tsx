@@ -26,7 +26,7 @@ export function HeroSection() {
         </div>
         <div className="flex justify-center">
           <Image
-            src="https://play-lh.googleusercontent.com/DCxlDY-l0-kT31nb1X1u6Je3PQwAbVBht7umisoClvuGSRbTZmSXXoxn597w9vZrBcg=w5120-h2880-rw"
+            src="https://play-lh.googleusercontent.com/jBY33zq8Mn2NnE7o217TfiI9VK4cmOV77rkty8SgDqDYvoTBNrVYhCkYMwBx7OcViYc=w5120-h2880-rw"
             alt="QuickSave App Screenshot"
             width={350}
             height={700}
