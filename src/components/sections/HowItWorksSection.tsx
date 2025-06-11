@@ -19,7 +19,7 @@ const steps = [
 
 export function HowItWorksSection() {
   return (
-    <SectionContainer>
+    <SectionContainer id="how-it-works">
       <h2 className="text-3xl font-bold font-headline text-center mb-12 text-primary">
         Simple Steps to Save Statuses
       </h2>

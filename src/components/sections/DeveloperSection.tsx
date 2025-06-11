@@ -7,7 +7,7 @@ const PRIVACY_POLICY_URL = "https://sites.google.com/view/quick-save-p-policy/ho
 
 export function DeveloperSection() {
   return (
-    <SectionContainer className="bg-muted">
+    <SectionContainer id="developer" className="bg-muted">
       <h2 className="text-3xl font-bold font-headline text-center mb-12 text-primary">
         Meet the Developer
       </h2>

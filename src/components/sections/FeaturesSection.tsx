@@ -47,7 +47,7 @@ const features = [
 
 export function FeaturesSection() {
   return (
-    <SectionContainer className="bg-muted">
+    <SectionContainer id="features" className="bg-muted">
       <h2 className="text-3xl font-bold font-headline text-center mb-12 text-primary">
         Packed with Useful Features
       </h2>
