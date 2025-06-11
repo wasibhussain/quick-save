@@ -28,9 +28,9 @@ export function Footer() {
         <p className="text-xs mt-1">
           Developed by Wasib Zameer.
         </p>
-         <p className="text-xs mt-2">
+         {/* <p className="text-xs mt-2">
           WhatsApp is a trademark of WhatsApp Inc., registered in the U.S. and other countries. QuickSave is not affiliated with WhatsApp Inc.
-        </p>
+        </p> */}
       </div>
     </footer>
   );
