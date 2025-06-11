@@ -28,8 +28,8 @@ export function HeroSection() {
           <Image
             src="https://play-lh.googleusercontent.com/jBY33zq8Mn2NnE7o217TfiI9VK4cmOV77rkty8SgDqDYvoTBNrVYhCkYMwBx7OcViYc=w5120-h2880-rw"
             alt="QuickSave App Screenshot"
-            width={350}
-            height={700}
+            width={280}
+            height={560}
             className="rounded-xl shadow-2xl object-contain"
             data-ai-hint="app mockup phone"
             priority

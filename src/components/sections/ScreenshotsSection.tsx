@@ -19,8 +19,8 @@ export function ScreenshotsSection() {
             <Image
               src={screenshot.src}
               alt={screenshot.alt}
-              width={300}
-              height={600}
+              width={250}
+              height={500}
               className="w-full h-auto object-contain"
               data-ai-hint={screenshot.hint}
             />
