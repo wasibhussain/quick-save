@@ -10,7 +10,7 @@ interface SectionContainerProps extends HTMLAttributes<HTMLElement> {
 export function SectionContainer({ children, className, as: Component = 'section', ...props }: SectionContainerProps) {
   return (
     <Component className={cn('py-12 md:py-16', className)} {...props}>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         {children}
       </div>
     </Component>

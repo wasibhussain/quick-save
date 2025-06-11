@@ -31,18 +31,20 @@ export function WhyQuickSaveSection() {
       <h2 className="text-3xl font-bold font-headline text-center mb-12 text-primary">
         Why Choose QuickSave?
       </h2>
-      <div className="grid md:grid-cols-2 gap-8">
-        {reasons.map((reason, index) => (
-          <Card key={index} className="shadow-lg">
-            <CardHeader className="flex flex-row items-center gap-4">
-              {reason.icon}
-              <CardTitle className="text-xl font-headline text-primary">{reason.title}</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-foreground">{reason.description}</p>
-            </CardContent>
-          </Card>
-        ))}
+      <div className="max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8">
+          {reasons.map((reason, index) => (
+            <Card key={index} className="shadow-lg">
+              <CardHeader className="flex flex-row items-center gap-4">
+                {reason.icon}
+                <CardTitle className="text-xl font-headline text-primary">{reason.title}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-foreground">{reason.description}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
     </SectionContainer>
   );

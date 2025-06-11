@@ -8,7 +8,7 @@ const PRIVACY_POLICY_URL = "https://sites.google.com/view/quick-save-p-policy/ho
 export function Footer() {
   return (
     <footer className="py-8 bg-muted text-muted-foreground mt-12">
-      <div className="container mx-auto px-4 text-center">
+      <div className="container mx-auto px-6 text-center">
         <div className="mb-6">
           <Button asChild variant="default" size="lg" className="bg-accent hover:bg-opacity-80 text-accent-foreground">
             <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer">

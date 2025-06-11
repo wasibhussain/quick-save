@@ -23,22 +23,24 @@ export function HowItWorksSection() {
       <h2 className="text-3xl font-bold font-headline text-center mb-12 text-primary">
         Simple Steps to Save Statuses
       </h2>
-      <div className="grid md:grid-cols-3 gap-8">
-        {steps.map((step, index) => (
-          <Card key={index} className="shadow-lg">
-            <CardHeader>
-              <div className="flex items-center mb-3">
-                <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold mr-3">
-                  {index + 1}
+      <div className="max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8">
+          {steps.map((step, index) => (
+            <Card key={index} className="shadow-lg">
+              <CardHeader>
+                <div className="flex items-center mb-3">
+                  <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold mr-3">
+                    {index + 1}
+                  </div>
+                  <CardTitle className="text-xl font-headline text-primary">{step.title}</CardTitle>
                 </div>
-                <CardTitle className="text-xl font-headline text-primary">{step.title}</CardTitle>
-              </div>
-            </CardHeader>
-            <CardContent>
-              <p className="text-foreground">{step.description}</p>
-            </CardContent>
-          </Card>
-        ))}
+              </CardHeader>
+              <CardContent>
+                <p className="text-foreground">{step.description}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
     </SectionContainer>
   );
