@@ -1,9 +1,10 @@
+
 import { SectionContainer } from '@/components/ui/SectionContainer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Mail, Phone, User, MapPin, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 
-const PRIVACY_POLICY_URL = "https://sites.google.com/view/quick-save-p-policy/home?pli=1";
+const PRIVACY_POLICY_URL = "/privacy-policy";
 
 export function DeveloperSection() {
   return (
@@ -36,7 +37,7 @@ export function DeveloperSection() {
           </div>
           <div className="flex items-center">
             <ExternalLink className="w-5 h-5 mr-3 text-accent" />
-            <Link href={PRIVACY_POLICY_URL} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary underline">
+            <Link href={PRIVACY_POLICY_URL} className="text-foreground hover:text-primary underline">
               View Privacy Policy
             </Link>
           </div>

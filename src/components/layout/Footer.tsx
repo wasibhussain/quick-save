@@ -1,9 +1,10 @@
+
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { PlayStoreIcon } from '@/components/icons/PlayStoreIcon';
 
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.quick.saver.app";
-const PRIVACY_POLICY_URL = "https://sites.google.com/view/quick-save-p-policy/home?pli=1";
+const PRIVACY_POLICY_URL = "/privacy-policy";
 
 export function Footer() {
   return (
@@ -18,7 +19,7 @@ export function Footer() {
           </Button>
         </div>
         <div className="mb-2">
-          <Link href={PRIVACY_POLICY_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary underline">
+          <Link href={PRIVACY_POLICY_URL} className="hover:text-primary underline">
             Privacy Policy
           </Link>
         </div>
