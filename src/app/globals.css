@@ -8,7 +8,7 @@ body {
 
 @layer base {
   :root {
-    --background: 0 0% 100%;               /* White */
+    --background: 145 75% 94%;               /* #E0FEEE - Light Greenish (as per original light theme) */
     --foreground: 0 0% 15%;                 /* Dark Gray */
     
     --card: 0 0% 100%;                       /* White cards */
@@ -17,16 +17,16 @@ body {
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 15%;
     
-    --primary: 145 63% 49%;                 /* #25D366 - WhatsApp Green (for interactive elements) */
+    --primary: 171 81% 31%;                 /* #128C7E - New Teal Primary */
     --primary-foreground: 0 0% 100%;       /* White */
     
-    --secondary: 170 50% 90%;              /* Light Teal */
+    --secondary: 170 50% 90%;              /* Light Teal (can remain for secondary elements if distinct look is needed) */
     --secondary-foreground: 170 60% 30%;   /* Darker Teal for text on secondary */
     
     --muted: 180 25% 95%;                  /* Very Light Teal/Gray (for section backgrounds like Features) */
     --muted-foreground: 0 0% 45.1%;         /* Medium Gray for muted text */
     
-    --accent: 171 81% 28%;                  /* #128C7E - Teal (for CTAs and accents) */
+    --accent: 173 87% 20%;                  /* #075E54 - New Darker Teal Accent */
     --accent-foreground: 0 0% 100%;        /* White */
     
     --destructive: 0 84.2% 60.2%;
@@ -34,7 +34,7 @@ body {
     
     --border: 180 20% 88%;                  /* Slightly darker Light Teal/Gray for borders */
     --input: 180 20% 92%;                   /* Lighter Teal/Gray for input backgrounds */
-    --ring: 145 63% 49%;                    /* Ring color (Primary - WhatsApp Green) */
+    --ring: 171 81% 31%;                    /* Ring color (New Teal Primary) */
     
     --radius: 0.75rem; /* Slightly more rounded corners */
 
