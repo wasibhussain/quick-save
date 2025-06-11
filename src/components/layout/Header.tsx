@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export function Header() {
   return (
-    <header className="py-4 shadow-md bg-primary text-primary-foreground">
+    <header className="sticky top-0 z-50 py-4 shadow-md bg-primary text-primary-foreground">
       <div className="container mx-auto px-6 flex flex-wrap justify-between items-center">
         <Link href="/" className="flex items-center gap-2 text-2xl font-bold font-headline">
           <Image
