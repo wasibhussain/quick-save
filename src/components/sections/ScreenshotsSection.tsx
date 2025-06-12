@@ -3,7 +3,7 @@ import { SectionContainer } from '@/components/ui/SectionContainer';
 
 const screenshots = [
   { src: "https://play-lh.googleusercontent.com/DCxlDY-l0-kT31nb1X1u6Je3PQwAbVBht7umisoClvuGSRbTZmSXXoxn597w9vZrBcg=w5120-h2880-rw", alt: "QuickSave Main Screen", hint: "app interface" },
-  { src: "https://play-lh.googleusercontent.com/re077kYmVD7ewXWINcrzDtqThGwT7jdJ_SKeMC3OzCccrBXU6YxHNZLDRV0rN4cUPUU=w5120-h2880-rw", alt: "QuickSave Image Preview", hint: "image viewer" },
+  { src: "https://play-lh.googleusercontent.com/jBY33zq8Mn2NnE7o217TfiI9VK4cmOV77rkty8SgDqDYvoTBNrVYhCkYMwBx7OcViYc=w5120-h2880-rw", alt: "QuickSave Image Preview", hint: "image viewer" },
   { src: "https://play-lh.googleusercontent.com/Dhno64ZyW2vuzffu75mllDFkAh9DZlXhORqYlxmNRz50QL-ktUT7gWGtkhtCa6ILAA=w5120-h2880-rw", alt: "QuickSave Settings", hint: "app settings" },
 ];
 
